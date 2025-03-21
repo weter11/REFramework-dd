@@ -24,7 +24,7 @@ Mods::Mods() {
     m_mods.emplace_back(REFrameworkConfig::get());
 
 #if defined(REENGINE_AT)
-    m_mods.emplace_back(std::make_unique<IntegrityCheckBypass>());
+//    m_mods.emplace_back(std::make_unique<IntegrityCheckBypass>());
 #endif
 
 #ifndef BAREBONES
